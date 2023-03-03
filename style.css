@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     max-width: 1440px;
-    overflow: hidden;
+
 }
 
 h1,h2,h3,h4,h5,h6,p {
@@ -19,7 +19,7 @@ h1,h2,h3,h4,h5,h6,p {
     display: flex;
     padding: 0;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: space-between;
     background-image: url(./base-apparel-coming-soon-master/images/bg-pattern-desktop.svg);
     max-height: 800px;
 }
@@ -32,6 +32,8 @@ h1,h2,h3,h4,h5,h6,p {
 .logo {
     margin-top: 74.91px;
     margin-left: 165px;
+    height: 33px;
+    width: 158px;
 }
 
 .container {
@@ -39,6 +41,8 @@ h1,h2,h3,h4,h5,h6,p {
     height: fit-content;
     margin-top: 136.74px;
     margin-left: 165px;
+    position: relative;
+    top: -692px;
 }
 
 .entry {
